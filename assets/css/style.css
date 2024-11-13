@@ -5,6 +5,7 @@
 }
 * {
     box-sizing: border-box;
+
 }
 
 body {
@@ -66,6 +67,7 @@ main {
 .password-meter {
     display: flex;
     margin-top: 5px;
+    border: 2px solid gray;
 }
 
 .password-meter-unit {
@@ -76,6 +78,7 @@ main {
 }
 
 .hidden {
+    color: red;
     display: none;
 }
 
@@ -94,3 +97,14 @@ main {
     background-color: var(--couleur-bouton-hover);
 }
 
+section img{
+    margin: 70px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 80px;
+    box-shadow: 5px 5px 10px black;
+}
+body{
+    display: flex;
+
+}
